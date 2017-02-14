@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+    font-family: roboto, sans-serif;
+}
+
+.main {
+    margin-top: 120px;
+}
+
+h1 {
+    font-family: roboto, sans-serif;
+    font-size: 30pt
+}
+
+.cam {
+    width: 700px;
+}
+
+/* Preços */
+.precos {
+    position: relative;
+    float: right;
+    right: 300px;
+}
+
+.p {
+    color: #417AFF;
+    font-size: 70pt;
+}
+
+.vista {
+    font-size: 14pt;
+    color: #747474
+}
+
+.pVista {
+    font-size: 16pt;
+}
+
+.tam {
+    margin-left: 300px;
+    font-weight: 600;
+}
+
+span {
+    color: #417AFF;
+    font-weight: 600;
+}
+
+/* botão comprar */
+.btn {
+    margin-left: 100px;
+    margin-top: 160px;
+    background-color: #417AFF;
+    color: #ffffff;
+    font-family: roboto, sans-serif;
+    font-size: 18pt; 
+    border: none;
+    padding: 10px 5px;
+    width: 200px;
+}
+
+.btn:hover {
+    background-color: #1E5BE8;
+}
+.btn:active {
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,.2);
+    margin-top: 161px;
+    margin-left: 101px;
+}
+
+/* Rodapé */
+.apDiv2 {
+    background-color: #417AFF;
+    position: absolute;
+    width: 1366px;
+	height: 80px;
+    top: 870px;
+}
+
+.twitter {
+    width: 77px;
+}
+.face {
+    width: 77px;
+}
+
+.copy {
+    font-size: 10pt;
+    font-family: roboto,sans-serif;
+    color: #ffffff;
+    margin-left: 450px;
+}

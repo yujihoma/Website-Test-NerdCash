@@ -1,0 +1,112 @@
+/* DOCUMENTO CSS */
+
+* {
+    margin: 0 0 0 0;
+}
+
+a {
+	text-decoration: none;	
+}
+
+/* MENU */
+nav {
+    margin: inherit;
+    padding: inherit;
+}
+ul {
+    margin: inherit;
+    padding: inherit;
+}
+ul li {  
+    list-style: none; 
+    height: 44px; 
+    float: left;  
+} 
+ul li a { 
+    width: 325px; 
+    height: 40px; 
+    line-height: 52px; 
+    border-bottom: 4px solid #636393; 
+    padding: inherit;
+    margin: 5px;
+    color: #1E5BE8; 
+    font-size: 18px; 
+    font-weight: bold;
+    font-family: roboto, sans-serif;
+    text-align: center; 
+    text-decoration: none; 
+    display: block; 
+    -webkit-transition: .2s all ease-out; 
+    -moz-transition: .2s all ease-out; 
+    -o-transition: .2s all ease-out; 
+    transition: .2s all ease-out;
+    clear: both;
+} 
+
+li:nth-child(1) a { 
+    border-color: #1E5BE8; 
+} 
+li:nth-child(2) a { 
+    border-color: #1E5BE8; 
+} 
+li:nth-child(3) a { 
+    border-color: #1E5BE8; 
+} 
+li:nth-child(4) a { 
+    border-color: #1E5BE8; 
+} 
+li:nth-child(1) a:hover { 
+    border-bottom: 35px solid #1E5BE8;
+    color: #fff;
+    height: 9px; 
+} 
+li:nth-child(2) a:hover { 
+    border-bottom: 35px solid #1E5BE8;
+    color: #fff;
+    height: 9px; 
+} 
+li:nth-child(3) a:hover { 
+    border-bottom: 35px #1E5BE8 solid;
+    color: #fff;
+    height: 9px; 
+} 
+li:nth-child(4) a:hover { 
+    border-bottom: 35px solid #1E5BE8;
+    color: #fff;
+    height: 9px; 
+}
+/* fim MENU */
+
+div {
+	margin-top: 100px;
+}
+/* RODAPÉ */
+.apDiv1 {
+    /*top: 841px;*/
+	width: 1366px;
+	height: 80px;
+	background-color: #417AFF;
+}
+
+.twitter {
+    width: 77px;
+}
+.face {
+    width: 77px;
+}
+
+.copy {
+    font-size: 10pt;
+    font-family: roboto,sans-serif;
+    color: #ffffff;
+    margin-left: 450px;
+}
+
+/* fim RODAPÉ */
+
+/* section principal */
+
+.main {
+    position: relative;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,51 @@
+.MS {
+    font-family: roboto, sans-serif;
+    width: 300px;
+    margin: auto;
+    border-color: #417AFF;
+}
+
+.sMS {
+    padding: 20px 10px;
+    position: absolute;
+    width: 1300px;
+    margin-left: 17px;
+    top: 80px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+    background-color: silver;
+}
+
+#env {
+    padding: 5px 10px;
+    background-color: #1E5BE8;
+    border: none;
+    font-family: roboto, sans-serif;
+    color: #ffffff;
+}
+#env:hover {
+    background-color: #ffffff;
+    color: #1E5BE8;
+}
+
+/* Rodapé */
+#apDiv2 {
+    background-color: #417AFF;
+    position: absolute;
+    width: 1366px;
+	height: 80px;
+    top: 670px;
+}
+
+.twitter {
+    width: 77px;
+}
+.face {
+    width: 77px;
+}
+
+.copy {
+    font-size: 10pt;
+    font-family: roboto,sans-serif;
+    color: #ffffff;
+    margin-left: 450px;
+}
